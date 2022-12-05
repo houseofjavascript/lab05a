@@ -73,7 +73,7 @@ Write a function called sumArray() that takes in an array of numbers as its sing
 
 "2,3,4 was passed in as an array of numbers, and 9 is their sum."
 
-IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To do addition, use your sum() function that you've already created. You're going to have to be resourceful to figure out how to do this. However, you may continue to use the + operator for string concatenation.
+IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To do addition, use your sum() function that you've already created. You're going to have to be resourceful to figure out how to do this. However, you may continue to use the + operator for string concatenation. adding this line because i forgot to add a new branch after finishing problem 3.
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
@@ -83,9 +83,9 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(sumArr) { //eslint-disable-line
   let sum1 = sum(testArray[0], testArray[1])[0];
   let sum2 = sum(sum1, testArray[2])[0];
-  let str1 = `${testArray} was passed in as an array of numbers, and ${sum2} is their sum.`;
-
-  return [sum2, str1];
+  let strOne = `${testArray} was passed in as an array of numbers, and ${sum2} is their sum.`;
+ne
+  return [sum2, strOne];
 
 }
 
